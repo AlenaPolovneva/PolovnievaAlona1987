@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+}
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header {
+   display: inline-block;
+   vertical-align: top;
+   margin-top: 30px;
+   padding-bottom: 10px;
+   border-bottom: 0.3px solid #46A358;
+}
+.logo {
+    text-decoration: none;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    color: #46A358;
+    text-transform: uppercase;
+    padding-right: 100px;
+}
+.logo img {
+vertical-align: middle;
+}
+.button {
+    border-radius: 6px;
+    background: #46A358;
+    border: none;
+    color: #FFF;
+    font-style: normal;
+    font-size: 16px;
+    display: inline;
+    vertical-align: top;
+    padding: 6px 20px;
+    margin-left: 387px;
+}
+.menu {
+   display: inline-block;
+   vertical-align: top;
+}
+.menu li {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+}
+.menu a {
+    color: #3D3D3D;
+    font-size: 16px;
+    font-style: normal;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+.menu a:hover {
+    border-bottom: 3px solid #46A358;
+    padding-bottom: 27px;
+}
+.text-item {
+    width: 685px;
+    display: inline-block;
+    vertical-align: top;
+}
+.text-oder {
+    padding-top: 60px;
+    color: #3D3D3D;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+.text-header {
+    color: #3D3D3D;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 70px;
+    text-transform: uppercase;
+}
+.text-area {
+    color: #46A358;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 70px;
+    text-transform: uppercase;
+}
+.text-label {
+    color: #727272;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+.shop-now {
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 6px;
+    background: #46A358;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 11px 26px;
+}
+.img-item {
+    width: 507px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+}
