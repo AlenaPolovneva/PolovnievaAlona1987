@@ -2,7 +2,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-body {
+.body {
     margin: 0;
 }
 .wrapper {
@@ -10,8 +10,6 @@ body {
     margin: 0 auto;
 }
 .header {
-   display: inline-block;
-   vertical-align: top;
    margin-top: 30px;
    padding-bottom: 10px;
    border-bottom: 0.3px solid #46A358;
@@ -41,8 +39,8 @@ vertical-align: middle;
     margin-left: 387px;
 }
 .menu {
-   display: inline-block;
-   vertical-align: top;
+    display: inline-block;
+    vertical-align: top;
 }
 .menu li {
     display: inline-block;
@@ -59,6 +57,9 @@ vertical-align: middle;
 .menu a:hover {
     border-bottom: 3px solid #46A358;
     padding-bottom: 27px;
+}
+.hero-section {
+    background: linear-gradient(98deg, rgba(245, 245, 245, 0.50) -23.46%, rgba(245, 245, 245, 0.50) 107.51%);
 }
 .text-item {
     width: 685px;
@@ -83,11 +84,6 @@ vertical-align: middle;
 }
 .text-area {
     color: #46A358;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 70px;
-    line-height: 70px;
-    text-transform: uppercase;
 }
 .text-label {
     color: #727272;
