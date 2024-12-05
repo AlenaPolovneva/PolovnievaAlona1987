@@ -5,22 +5,22 @@
 .body {
     margin: 0;
 }
-.clearfix ::after {
+.clearfix::after {
     content: '';
     clear: both;
     display: table;
 }
 .content {
-   max-width: 1200px;
+   max-width: 1232px;
    min-width: 991px;
    padding: 0 16px;
-   margin-bottom: 35px;
+   margin-left: 35px;
+   margin-top: 135px;
 }
 .left-box {
+    float: left;
     background-color: #fbfbfb;
     width: 310px;
-    float: left;
-    margin-left: 35px;
 }
 .header {
     color: #3D3D3D;
@@ -35,6 +35,7 @@
 .navigator {
     padding-right: 30px;
     list-style-type: none;
+    margin-bottom: 100px;
 }
 .first-line {
     color: #46A358;
@@ -52,17 +53,21 @@
     line-height: 40px;
     text-decoration: none; 
 }
-.banner{
-    width: 370px;
+.banner {
+    width: 310px;
 }
 .right-box {
     float: right;
     width: 840px;
-    margin-left: 49px;
-    margin-top: 30px
+}
+.navbar {
+    float: left;
+    margin-bottom: 38px;
+}
+.navbar-text {
+    float: right;
 }
 .element-1 {
-    float: left;
     text-decoration: none;
     color: #46A358;
     font-size: 15px;
@@ -73,7 +78,6 @@
     margin-bottom: 7px;
 }
 .element-2 {
-    float: left;
     text-decoration: none;
     color: #3D3D3D;
     font-size: 15px;
@@ -87,7 +91,6 @@
     border-bottom: 3px solid #46A358;
 }
 .nav-unit {
-    float: right;
     text-decoration: none;
     color: #3D3D3D;
     font-size: 15px;
@@ -96,7 +99,7 @@
     line-height: 16px;
     margin-bottom: 17px;
 }
-.nav-button {
+.navbar-text button {
     text-decoration: none;
     background: none;
     border: none;
@@ -108,17 +111,18 @@
     margin-bottom: 17px;
 }
 .cards {
+    float: left;
     max-width: 840px;
     margin: 0 -16px;
 }
 .card {
-    width: 33.333%;
     float: left;
+    width: 33.333%;
     padding: 0 16px 70px;
 }
 .card-inset {
+    float: left;
     background-color: #fbfbfb;
-    padding: 30px;
 }
 .card-name {
     color: #3D3D3D;
