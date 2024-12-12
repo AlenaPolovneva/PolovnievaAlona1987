@@ -53,9 +53,24 @@
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
 .menu li {
     margin: 0 25px;
+}
+.menu > li > button {
+    font-family: inherit;
+    font-size: 16px;
+    cursor: pointer;
+    color: #3D3D3D;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+.menu > li > button:hover {
+    color: #3D3D3D;
+    font-weight: 700;
 }
 .menu a {
     color: #3D3D3D;;
@@ -63,11 +78,41 @@
     line-height: normal;
     text-decoration: none;
 }
-.menu a:hover {
+.menu > li > a:hover {
     border-bottom: 2px solid #46A358;
     padding-bottom: 35px;
     color: #3D3D3D;
     font-weight: 700;
+}
+.submenu {
+    display: none;
+    position: absolute;
+    top: 57px;
+    padding: 0;
+    list-style: none;
+    width: 180px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   padding: 7px 7px 0;
+    background: #EDF6EE;
+}
+.submenu ::before {
+   content: " ";
+   height: 30px;
+   width: 100%;
+   background-color: transparent;
+   display: block;
+   position: absolute;
+   left: 0;
+   top: -32px;
+}
+.submenu li {
+    padding-bottom: 14px;
+}
+.submenu a {
+    display: block;
+}
+.menu > li:hover .submenu {
+    display: block;
 }
 .icon-card {
     background-image: url(../img/img-19.svg);
@@ -120,8 +165,20 @@
     margin-bottom: 46px;
 }
 .section-text {
+    width: 50%;
     padding-left: 40px;
     padding-top: 60px;
+}
+.price {
+    display: flex;
+    align-items: center;
+}
+.card-old-prise {
+    padding-left: 8px;
+    text-decoration: line-through;
+    color: #A5A5A5;
+    font-size: 18px;
+    line-height: 16px;
 }
 .section-p {
     color: #3D3D3D;
@@ -182,7 +239,10 @@
 }
 .left-box-menu {
     list-style: none;
-    padding-left: 0;
+    padding-top: 7px;
+    padding-left: 28px;
+    padding-right: 22px;
+    padding-bottom: 30px;
 }
 .left-box-menu a:hover {
     color: #46A358;
@@ -252,6 +312,9 @@
     padding: 0 10px 70px;
 }
 .card-inset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #fbfbfb;
     height: 300px;
     position: relative;
@@ -292,6 +355,7 @@
     color: #3D3D3D;
     font-size: 16px;
     line-height: 16px;
+    padding-bottom: 6px;
 }
 .card-price {
     color: #46A358;
