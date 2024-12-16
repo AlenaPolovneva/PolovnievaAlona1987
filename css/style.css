@@ -23,6 +23,7 @@
 .body {
    font-family: "Cera Pro", Arial, sans-serif;
    font-weight: 400;
+   font-size: 16px;
    font-style: normal;
 }
 .img-responsive {
@@ -87,12 +88,12 @@
 .submenu {
     display: none;
     position: absolute;
-    top: 57px;
+    top: 52px;
     padding: 0;
     list-style: none;
     width: 180px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-   padding: 7px 7px 0;
+    padding: 7px 7px 0;
     background: #EDF6EE;
 }
 .submenu ::before {
@@ -103,7 +104,7 @@
    display: block;
    position: absolute;
    left: 0;
-   top: -32px;
+   top: -30px;
 }
 .submenu li {
     padding-bottom: 14px;
@@ -375,8 +376,10 @@
 .paginator {
     display: flex;
     justify-content: end;
-    align-items: center;
     margin-left: 600px;
+}
+.paginator a {
+   margin-left: 5px;
 }
 .next-1 {  
     display: flex;
@@ -387,22 +390,25 @@
     border-radius: 5px;
     border: 1px solid #3D3D3D;
     color: #3D3D3D;
+    font-size: 18px;
     line-height: 16px;
+    font-weight: 300;
     margin-bottom: 10px;
-    text-align: center;
     padding-top: 3px;
 }
 .next-1:hover {
     background-color: #46A358;
+    font-weight: 700;
     color: #fff;
 }
 .next {
-    margin-bottom: 10px;
     width: 30px;
     height: 30px;
+    border-radius: 5px;
     border: 1px solid #3D3D3D;
     background-image: url(../img/img-10.svg);
     background-repeat: no-repeat;
+    background-position: center center;
 }
 .next:hover{
     background-color: #46A358;
@@ -436,7 +442,6 @@
     padding-top: 62px;
     padding-bottom: 23px;
     padding-right: 23px;
-
 }
 .cont-card-text {
     color: #727272;
