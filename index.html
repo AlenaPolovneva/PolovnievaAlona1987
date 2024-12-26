@@ -99,7 +99,23 @@
                                 </a>
                                    </li>
                             </ul>
+                            <div class="left-box-range"><h3>Price Range</h3></div>
+                            <div id="slider-range"></div>
+                             <p>
+                                <label class="slider-range" for="amount">Price:</label>
+                                <input type="text" id="amount" class="slider-range-text">
+                            </p>
+                            <button class="slider-range-botton" type="button">Filter</button>
                        </div>
+                       <div class="size"><h3>Size</h3></div>
+                       <div class="check-wrap">
+                             <label>
+                                 <input type="checkbox" class="checkbox visually-hidden">
+                                    <span class="check-text">Small
+                                       <div>(119)</div>
+                                    </span>
+                             </label>
+                        </div>
                        <div class="banner">
                            <img src="./img/banner-1.png" alt="">
                        </div>
@@ -406,6 +422,7 @@
                             </article>
                        </div> 
                         <div class="paginator">
+                            <a class="next-0" href="#"></a>
                             <a class="next-1" href="#">1</a>
                             <a class="next-1" href="#">2</a>
                             <a class="next-1" href="#">3</a>
@@ -560,8 +577,8 @@
             </article>
             <div class="footer-content">
                 <h4>Would you like to join newsletters?</h4>
-                    <div><input type="text" placeholder="enter your email address... "> 
-                    <button type="submit" class="footer-box">Join</button></div>
+                    <form><input type="text" placeholder="enter your email address... "> 
+                    <button type="submit" class="footer-box">Join</button></form>
                 <p>We usually post offers and challenges in newsletter. We're your online houseplant destination. We offer a wide range of houseplants and accessories shipped directly from our (green)house to yours! </p>
             </div>  
         </div>
@@ -667,5 +684,8 @@
             <p class="finish">© 2021 GreenShop. All Rights Reserved.</p>
         </section>
        </footer>
+       <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+       <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+       <script src="./js/script.js"></script>
 </body>
 </html>
